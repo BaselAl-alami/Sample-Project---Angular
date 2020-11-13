@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+@mixin clearfix {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+p-button {
+    @include clearfix;
+    float: right;
+}
